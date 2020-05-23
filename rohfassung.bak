@@ -21,7 +21,6 @@
 			</div>
 		</div>
 	</div>
-<div id="Body-Wrapper">
 <div id="bodybox">
 	<div id="topblock">
 	<div id="date" style="background-color:yellow">
@@ -42,8 +41,8 @@
 				<div id="Bezos" style="background-color:red">
 					z
 		</div>
-
-
+			
+		
 	</div>
 	<div id="popularnewsheader" style="background-color:grey">
 		Popular News
@@ -92,9 +91,10 @@
 	</div>
 </div>
 </div>
-		<div class="bottomblack">
+</div>
+		<div id="bottomblack">
 
-
+		
 
 			<div id="bottomlist">
 			<ul>
@@ -104,19 +104,19 @@
 				<li>Video</li>
 			</ul>
 			</div>
-</div>
 
-<div class="bottomblack">
-			<div id="yourname">
-				Georg Nitsche - CodeFactory 2020
-			</div>
-<div class="bottomblack">
+
 						<div id="bottomimage">
 			<img src="./img/logo-newspaper-cf.png">
 		</div>
+		<div id="yourname">
+				Georg Nitsche - CodeFactory 2020
+			</div>
+	</div>
+
 	</div>
 
 		</div>
-		</div>
+					
 </body>
-</html> 
+</html>

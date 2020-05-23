@@ -1,7 +1,8 @@
 body {
 	display: flex;
+		flex-direction: column;
 	justify-content: center;
-	flex-direction: column;
+
 }
 
 #topwrapper {
@@ -51,9 +52,16 @@ body {
 #bodybox {
 	display: flex;
 	width: 95%;
-	justify-content: center;
+	justify-content: space-between;
 	flex-direction: column;
 }
+
+#newsfswddivright {
+	display: flex;
+	flex-direction: column;
+	width: 15%;
+}
+
 
 #topblock {
 	display: flex;
@@ -131,11 +139,6 @@ body {
 	width: 82%;
 }
 
-#newsfswddivright {
-	display: flex;
-	flex-direction: column;
-	width: 15%;
-}
 
 #Mittelstück {
 	display: flex;
@@ -157,8 +160,10 @@ body {
 
 #lowblock {
 	display: flex;
-	justify-content: space-between;
+	width: 100%;
+	flex-direction: column;
 }
+
 
 #newscfdivleft {
 	display: flex;
@@ -187,19 +192,25 @@ body {
 	width: 45%;
 }
 
+
 #newscfdivright {
 	display: flex;
+	flex-direction: column;
 	width: 15%;
 }
 
-.bottomblack {
+#bottomblack {
 	display: flex;
 	background-color: black;
 	justify-content: space-between;
+	height: 100px;
+	width: 100%;
 }
 
 #bottomlist {
 	display: flex;
+	width: 33%;
+	justify-content: space-between;
 	flex-direction: row;
 	color: white;
 }
@@ -207,6 +218,7 @@ body {
 #bottomlist ul {
 	display: flex;
 	flex-direction: row;
+	width: 100%;
 	list-style: none;
 	justify-content: space-between;
 }
@@ -214,16 +226,19 @@ body {
 #yourname {
 	display: flex;
 	color: white;
+	justify-content: center;
 	align-self: flex-end;
+
 }
 
 #bottomimage {
 	display: flex;
 	align-self: center;
+	justify-content: right;
 
 }
 
 #bottomwrapper {
 	display: flex;
 	flex-direction: column;
-} 
+}
