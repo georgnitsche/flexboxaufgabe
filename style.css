@@ -1,7 +1,8 @@
 body {
 	display: flex;
+		flex-direction: column;
 	justify-content: center;
-	flex-direction: column;
+
 }
 
 #topwrapper {
@@ -51,9 +52,11 @@ body {
 #bodybox {
 	display: flex;
 	width: 95%;
-	justify-content: center;
+	justify-content: space-between;
 	flex-direction: column;
 }
+
+
 
 #topblock {
 	display: flex;
@@ -157,6 +160,7 @@ body {
 
 #lowblock {
 	display: flex;
+	flex-direction: column;
 	justify-content: space-between;
 }
 
@@ -197,10 +201,13 @@ body {
 	background-color: black;
 	justify-content: space-between;
 	height: 100px;
+	width: 100%;
 }
 
 #bottomlist {
 	display: flex;
+	width: 33%;
+	justify-content: space-between;
 	flex-direction: row;
 	color: white;
 }
@@ -208,6 +215,7 @@ body {
 #bottomlist ul {
 	display: flex;
 	flex-direction: row;
+	width: 100%;
 	list-style: none;
 	justify-content: space-between;
 }
@@ -215,12 +223,15 @@ body {
 #yourname {
 	display: flex;
 	color: white;
+	justify-content: center;
 	align-self: flex-end;
+
 }
 
 #bottomimage {
 	display: flex;
 	align-self: center;
+	justify-content: right;
 
 }
 
