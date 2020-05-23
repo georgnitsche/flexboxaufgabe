@@ -192,10 +192,11 @@ body {
 	width: 15%;
 }
 
-.bottomblack {
+#bottomblack {
 	display: flex;
 	background-color: black;
 	justify-content: space-between;
+	height: 100px;
 }
 
 #bottomlist {
