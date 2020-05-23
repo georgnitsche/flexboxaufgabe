@@ -1,0 +1,229 @@
+body {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+#topwrapper {
+	display: flex;
+	height: 150px;
+	background-color: #610808;
+	flex-direction: column;
+	justify-content: space-between;
+
+}
+
+#topred {
+	display: flex;
+	width: 100%;
+	height: 80%;
+	justify-content: space-around;
+	align-items: center;
+}
+
+
+#topblack  {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  color: white;
+  width: 100%;
+  background-color: #000000;
+
+}
+
+#toplist {
+	display: flex;
+	width: 100%;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+#toplist ul {
+	display: flex;
+	flex-direction: row;
+	width: 25%;
+	list-style: none;
+	justify-content: space-between;
+}
+
+#bodybox {
+	display: flex;
+	width: 95%;
+	justify-content: center;
+	flex-direction: column;
+}
+
+#topblock {
+	display: flex;
+	width: 100%;
+	background-color: yellow;
+	flex-direction: column;
+}
+
+#date {
+	display: flex;
+	justify-content: right;
+	width: 100%;
+
+}
+
+#topnewsdiv {
+	display: flex;
+	flex-direction: row-reverse;
+	width: 100%;
+	justify-content: space-between;
+}
+
+
+#nasa {
+	display: flex;
+	flex-direction: row;
+	width: 25%;
+}
+
+#EU {
+	display: flex;
+	flex-direction: row;
+	width: 25%;
+}
+
+#Bezos {
+	display: flex;
+	flex-direction: row;
+	width: 25%;
+}
+
+#polar {
+	display: flex;
+	flex-direction: row;
+	width: 25%;
+}
+
+#Musk {
+	display: flex;
+	flex-direction: row;
+	width: 25%;
+}
+
+#Snowden {
+	display: flex;
+	flex-direction: row;
+	width: 25%;
+}
+
+#popularnewsdiv {
+	display: flex;
+	flex-direction: row-reverse;
+	width: 100%;
+	justify-content: space-between;
+}
+
+#newsfswddiv {
+	display: flex;
+	justify-content: space-between;
+}
+
+#newsfswddivleft {
+	display: flex;
+	flex-direction: column;
+	width: 82%;
+}
+
+#newsfswddivright {
+	display: flex;
+	flex-direction: column;
+	width: 15%;
+}
+
+#Mittelstück {
+	display: flex;
+	flex-direction: column;
+	width: 85%;
+}
+
+#Mittelstück-Wrapper {
+	display: flex;
+	width: 100%;
+	justify-content: center;
+}
+
+#Body-Wrapper {
+	display: flex;
+	width: 100%;
+	justify-content: center;
+}
+
+#lowblock {
+	display: flex;
+	justify-content: space-between;
+}
+
+#newscfdivleft {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	width: 82%;
+}
+
+#iphone {
+	display: flex;
+	width: 45%;
+}
+
+#oneplus {
+	display: flex;
+	width: 45%;
+}
+
+#spotify {
+	display: flex;
+	width: 45%;
+}
+
+#powerstrip {
+	display: flex;
+	width: 45%;
+}
+
+#newscfdivright {
+	display: flex;
+	width: 15%;
+}
+
+.bottomblack {
+	display: flex;
+	background-color: black;
+	justify-content: space-between;
+}
+
+#bottomlist {
+	display: flex;
+	flex-direction: row;
+	color: white;
+}
+
+#bottomlist ul {
+	display: flex;
+	flex-direction: row;
+	list-style: none;
+	justify-content: space-between;
+}
+
+#yourname {
+	display: flex;
+	color: white;
+	align-self: flex-end;
+}
+
+#bottomimage {
+	display: flex;
+	align-self: center;
+
+}
+
+#bottomwrapper {
+	display: flex;
+	flex-direction: column;
+}
