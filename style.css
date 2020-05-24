@@ -48,6 +48,11 @@ body {
 	justify-content: space-between;
 }
 
+.bodywrapper {
+	margin: 0 auto;
+	width: 90%;
+}
+
 #bodybox {
 	display: flex;
 	width: 95%;
@@ -75,13 +80,6 @@ body {
 
 }
 
-#topnewsdiv {
-	display: flex;
-	flex-direction: row;
-	width: 100%;
-	justify-content: space-around;
-	align-content: space-around;
-}
 
 section.wrapper {
   width: 80%;
@@ -101,50 +99,15 @@ div.column img {
   width: 100%;
 }
 
-#nasa {
-	display: flex;
-	flex-direction: row;
-	width: 30%;
-		align-self: center;
-flex: 0 0 auto;
+section.wrapper2 {
+	width: 15%;
+	max-width: 187px;
+	margin: 0 auto;
+	background-color: lightgreen;
+	border: 5px solid green;
 }
 
 
-#EU {
-	display: flex;
-	flex-direction: row;
-	width: 30%;
-		align-self: center;
-flex: 0 0 auto;
-}
-
-
-#Bezos {
-	display: flex;
-	flex-direction: row;
-	width: 30%;
-	align-self: center;
-flex: 0 0 auto;
-}
-
-
-#polar {
-	display: flex;
-	flex-direction: row;
-	width: 25%;
-}
-
-#Musk {
-	display: flex;
-	flex-direction: row;
-	width: 25%;
-}
-
-#Snowden {
-	display: flex;
-	flex-direction: row;
-	width: 25%;
-}
 
 #popularnewsdiv {
 	display: flex;
