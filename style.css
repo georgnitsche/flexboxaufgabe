@@ -53,24 +53,11 @@ body {
 	width: 90%;
 }
 
-#bodybox {
-	display: flex;
-	width: 95%;
-	flex-direction: column;
-	align-content: space-around;
-
-}
-
-#bodyboxwrapper {
-	display: flex;
-	justify-content: center;
-	align-content: space-around;
-	width: 100%;
-}
 
 #topblock {
 	display: flex;
 	justify-content: space-between;
+	flex-direction: column;
 	}
 
 #date {
@@ -80,9 +67,24 @@ body {
 
 }
 
+#topblock {
+	display: flex;
+	width: 100%
+	flex-direction: row;
+	;
+}
+#topleft {
+	display: flex;
+	width: 80%;
+}
 
+#topright {
+	display: flex;
+	width: 10%;
+}
 section.wrapper {
   width: 80%;
+  flex-wrap: wrap;
   max-width: 1000px;
   margin: 0 auto;
   background-color: lightgreen;
@@ -99,14 +101,29 @@ div.column img {
   width: 100%;
 }
 
-section.wrapper2 {
-	width: 15%;
-	max-width: 187px;
-	margin: 0 auto;
-	background-color: lightgreen;
-	border: 5px solid green;
+
+div.column2 {
+  width: 45%;
+  border: 5px solid black;
+  display: inline-block;
 }
 
+div.column2 img {
+  width: 100%;
+}
+div.banner {
+	width: 20%;
+	border: 5px solid black;
+	display: inline-block;
+}
+
+div.banner img {
+	width: 100%;
+}
+
+div.sections {
+	width: 20%;
+}
 
 
 #popularnewsdiv {
