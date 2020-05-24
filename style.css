@@ -103,7 +103,7 @@ div.column img {
 
 
 div.column2 {
-  width: 45%;
+  width: 30%;
   border: 5px solid black;
   display: inline-block;
 }
@@ -124,6 +124,7 @@ div.banner img {
 div.sections {
 	width: 20%;
 }
+
 
 
 #popularnewsdiv {
@@ -183,30 +184,39 @@ div.sections {
 	width: 82%;
 }
 
-#iphone {
+div.column2div {
+	display: flex;
+	justify-content:space-between;
+}
+
+div.column2divleft {
+	display: flex;
+	flex-wrap: wrap;
+	width: 80%;
+	justify-content: space-between;
+}
+
+div.column2divright {
+	display: flex;
+	width: 15%;
+}
+
+div.column2div {
+	display: flex;
+	width: 100%;
+}
+
+div.column2 {
 	display: flex;
 	width: 45%;
 }
 
-#oneplus {
-	display: flex;
-	width: 45%;
 }
-
-#spotify {
-	display: flex;
-	width: 45%;
-}
-
-#powerstrip {
-	display: flex;
-	width: 45%;
-}
-
 #newscfdivright {
 	display: flex;
 	width: 15%;
 }
+
 
 #bottomblack {
 	display: flex;
