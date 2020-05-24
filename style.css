@@ -52,19 +52,21 @@ body {
 	display: flex;
 	width: 95%;
 	flex-direction: column;
+	align-content: space-around;
+
 }
 
 #bodyboxwrapper {
 	display: flex;
 	justify-content: center;
+	align-content: space-around;
+	width: 100%;
 }
 
 #topblock {
 	display: flex;
-	width: 100%;
-	background-color: yellow;
-	flex-direction: column;
-}
+	justify-content: space-between;
+	}
 
 #date {
 	display: flex;
@@ -75,29 +77,56 @@ body {
 
 #topnewsdiv {
 	display: flex;
-	flex-direction: row-reverse;
+	flex-direction: row;
 	width: 100%;
-	justify-content: space-between;
+	justify-content: space-around;
+	align-content: space-around;
 }
 
+section.wrapper {
+  width: 80%;
+  max-width: 1000px;
+  margin: 0 auto;
+  background-color: lightgreen;
+  border: 5px solid green;
+}
+
+div.column {
+  width: 30%;
+  border: 5px solid black;
+  display: inline-block;
+}
+
+div.column img {
+  width: 100%;
+}
 
 #nasa {
 	display: flex;
 	flex-direction: row;
-	width: 25%;
+	width: 30%;
+		align-self: center;
+flex: 0 0 auto;
 }
+
 
 #EU {
 	display: flex;
 	flex-direction: row;
-	width: 25%;
+	width: 30%;
+		align-self: center;
+flex: 0 0 auto;
 }
+
 
 #Bezos {
 	display: flex;
 	flex-direction: row;
-	width: 25%;
+	width: 30%;
+	align-self: center;
+flex: 0 0 auto;
 }
+
 
 #polar {
 	display: flex;
@@ -120,8 +149,10 @@ body {
 #popularnewsdiv {
 	display: flex;
 	flex-direction: row-reverse;
-	width: 100%;
-	justify-content: space-between;
+	flex-wrap: wrap;
+	height: 200px;
+	justify-content: space-around;
+	align-content: space-around;
 }
 
 #newsfswddiv {
@@ -137,7 +168,6 @@ body {
 
 #newsfswddivright {
 	display: flex;
-	flex-direction: column;
 	width: 15%;
 }
 
@@ -201,7 +231,7 @@ body {
 #bottomblack {
 	display: flex;
 	flex-direction: column;
-	width: 100%;
+	flex: 0 0 100%;
 	height: 9em;
 	background-color: black;
 	justify-content: space-between;

@@ -1,8 +1,7 @@
 body {
 	display: flex;
-		flex-direction: column;
 	justify-content: center;
-
+	flex-direction: column;
 }
 
 #topwrapper {
@@ -52,23 +51,22 @@ body {
 #bodybox {
 	display: flex;
 	width: 95%;
-	justify-content: space-between;
 	flex-direction: column;
+	height: 2000px;
+	align-content: space-around;
+
 }
 
-#newsfswddivright {
+#bodyboxwrapper {
 	display: flex;
-	flex-direction: column;
-	width: 15%;
+	justify-content: center;
+	align-content: space-around;
 }
-
 
 #topblock {
 	display: flex;
-	width: 100%;
-	background-color: yellow;
-	flex-direction: column;
-}
+	justify-content: space-between;
+	}
 
 #date {
 	display: flex;
@@ -79,29 +77,39 @@ body {
 
 #topnewsdiv {
 	display: flex;
-	flex-direction: row-reverse;
+	flex-direction: row;
 	width: 100%;
-	justify-content: space-between;
+	justify-content: space-around;
+	align-content: space-around;
 }
 
 
 #nasa {
 	display: flex;
 	flex-direction: row;
-	width: 25%;
+	width: 30%;
+		align-self: center;
+flex: 0 0 auto;
 }
+
 
 #EU {
 	display: flex;
 	flex-direction: row;
-	width: 25%;
+	width: 30%;
+		align-self: center;
+flex: 0 0 auto;
 }
+
 
 #Bezos {
 	display: flex;
 	flex-direction: row;
-	width: 25%;
+	width: 30%;
+	align-self: center;
+flex: 0 0 auto;
 }
+
 
 #polar {
 	display: flex;
@@ -124,8 +132,10 @@ body {
 #popularnewsdiv {
 	display: flex;
 	flex-direction: row-reverse;
-	width: 100%;
-	justify-content: space-between;
+	flex-wrap: wrap;
+	height: 200px;
+	justify-content: space-around;
+	align-content: space-around;
 }
 
 #newsfswddiv {
@@ -139,6 +149,10 @@ body {
 	width: 82%;
 }
 
+#newsfswddivright {
+	display: flex;
+	width: 15%;
+}
 
 #Mittelstück {
 	display: flex;
@@ -160,15 +174,15 @@ body {
 
 #lowblock {
 	display: flex;
-	width: 100%;
-	flex-direction: column;
+	justify-content: space-between;
 }
-
 
 #newscfdivleft {
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: space-between;
+	height: 200px;
+	justify-content: space-around;
+	align-content: space-around;
 	width: 82%;
 }
 
@@ -192,53 +206,54 @@ body {
 	width: 45%;
 }
 
-
 #newscfdivright {
 	display: flex;
-	flex-direction: column;
 	width: 15%;
 }
 
 #bottomblack {
 	display: flex;
+	flex-direction: column;
+	width: 100%;
+	height: 9em;
 	background-color: black;
 	justify-content: space-between;
-	height: 100px;
-	width: 100%;
 }
 
 #bottomlist {
 	display: flex;
-	width: 33%;
-	justify-content: space-between;
 	flex-direction: row;
+	width: 100%;
+	height: 3em;
 	color: white;
+	justify-content: space-between;
 }
 
 #bottomlist ul {
 	display: flex;
 	flex-direction: row;
-	width: 100%;
+	width: 20%;
 	list-style: none;
 	justify-content: space-between;
 }
 
+
 #yourname {
 	display: flex;
+	width: 100%;
+	height: 3em;
 	color: white;
-	justify-content: center;
+	align-items: flex-end;
 	align-self: flex-end;
-
+	justify-content: center;
 }
 
 #bottomimage {
 	display: flex;
-	align-self: center;
+	width: 100%;
+	height: 3em;
 	justify-content: right;
+	align-items: center;
+	align-self: center;
 
-}
-
-#bottomwrapper {
-	display: flex;
-	flex-direction: column;
 }

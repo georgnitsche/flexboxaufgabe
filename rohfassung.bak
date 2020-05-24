@@ -21,33 +21,35 @@
 			</div>
 		</div>
 	</div>
+
+<div id="bodyboxwrapper">
 <div id="bodybox">
-	<div id="topblock">
+
 	<div id="date" style="background-color:yellow">
 		Friday, 14.9.2018
 	</div>
-	<div id="topnewsheader" style="background-color:grey">
+	<div id="topnewsheader" style="background-color:grey; margin-top: 10px; margin-bottom: 10px">
 		Top News
 	</div>
-	<div id="newsfswddiv">
+		<div id="topblock">
 	<div id="newsfswddivleft">
-	<div id="topnewsdiv">
-		<div id="nasa" style="background-color:orange">
-			x
+		<div id="topnewsdiv" style="background-color: red">
+		
+		<div id="Nasa" style="background-color:orange">
+			<img src="./img/nasa.png">
 		</div>
 			<div id="EU" style="background-color:purple">
-				y
+				<img src="./img/eu.png">
 		</div>
 				<div id="Bezos" style="background-color:red">
-					z
+					<img src="./img/jeff.png">
 		</div>
-			
-		
 	</div>
+
 	<div id="popularnewsheader" style="background-color:grey">
 		Popular News
 	</div>
-		<div id="popularnewsdiv">
+		<div id="popularnewsdiv" style="background-color: red">
 		<div id="polar" style="background-color:orange">
 			x
 		</div>
@@ -57,14 +59,12 @@
 				<div id="Snowden" style="background-color:red">
 					z
 		</div>
-
-	</div>
-
-</div>
-		<div id="newsfswddivright" style="background-color:blue">
-	</div>
 </div>
 
+	</div>
+			<div id="newsfswddivright" style="background-color:blue">
+</div>
+</div>
 
 
 <div id="Mittelstück-Wrapper">
@@ -86,37 +86,37 @@
 			<div id="spotify" style="background-color:purple">
 				y
 		</div>
-</div>
-<div id="newscfdivright" style="background-color:blue">
 	</div>
+<div id="newscfdivright" style="background-color:blue">
+	y
+	</div>
+</div>
 </div>
 </div>
 </div>
 		<div id="bottomblack">
 
-		
+
 
 			<div id="bottomlist">
+		
 			<ul>
 				<li>Home</li>
 				<li>Tech</li>
 				<li>Culture</li>
 				<li>Video</li>
 			</ul>
-			</div>
+		</div>
+		
 
-
+			
 						<div id="bottomimage">
 			<img src="./img/logo-newspaper-cf.png">
-		</div>
-		<div id="yourname">
+	</div>
+	<div id="yourname">
 				Georg Nitsche - CodeFactory 2020
 			</div>
-	</div>
 
-	</div>
-
-		</div>
-					
+	
 </body>
-</html>
+</html> 
