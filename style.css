@@ -222,7 +222,7 @@ div.column1divleft {
 	display: flex;
 	flex-wrap: wrap;
 	width: 80%;
-	justify-content: space-between;
+	justify-content:space-between;
 }
 
 div.column1divright {
@@ -238,6 +238,7 @@ div.column1div {
 div.column1 {
 	display: flex;
 	width: 30%;
+	object-fit: cover;
 }
 
 }
