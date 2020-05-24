@@ -211,6 +211,35 @@ div.column2 {
 	width: 45%;
 }
 
+
+
+div.column1div {
+	display: flex;
+	justify-content:space-between;
+}
+
+div.column1divleft {
+	display: flex;
+	flex-wrap: wrap;
+	width: 80%;
+	justify-content: space-between;
+}
+
+div.column1divright {
+	display: flex;
+	width: 15%;
+}
+
+div.column1div {
+	display: flex;
+	width: 100%;
+}
+
+div.column1 {
+	display: flex;
+	width: 30%;
+}
+
 }
 #newscfdivright {
 	display: flex;
